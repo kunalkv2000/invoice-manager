@@ -27,10 +27,24 @@ const ShowInvoice = (props) => {
       >
         <div id="invoiceCapture">
           <div className="d-flex flex-row justify-content-between align-items-start bg-light w-100 p-4">
+            <div class="col-6">
+              <h2 class="m-0">Invoice</h2>
+            </div>
+            <div class="col-6">
+              <a class="d-block text-end" href="#!">
+                <img
+                  src="./logo.png"
+                  class="img-fluid"
+                  alt="Kunal Software Logo"
+                  width="135"
+                  height="44"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="d-flex flex-row justify-content-between align-items-start bg-light w-100 p-4">
             <div className="w-100">
-              <h4 className="fw-bold my-2">
-                {props.info.billFrom || "Louremipsum Inc."}
-              </h4>
+              <h4 className="fw-bold my-2">{props.info.billFrom || ""}</h4>
               <h6 className="fw-bold text-secondary mb-1">
                 Invoice #: {props.info.invoiceNumber || ""}
               </h6>
