@@ -16,7 +16,7 @@ const NavigationBar = () => {
               height="30"
               className="d-inline-block align-top"
             />{" "}
-            Invoice Generator{" "}
+            Invoice Manager{" "}
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
