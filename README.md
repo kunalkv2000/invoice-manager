@@ -1,4 +1,4 @@
-<p><a target="_blank" href="https://invoice-manager-ks.netlify.app/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/kunalkv2000/invoice-manager/refs/heads/main/assets/summary.png" alt="c" width="100%" height="100%" /></a>
+<p><a target="_blank" href="https://invoice-manager-ks.netlify.app/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/kunalkv2000/invoice-manager/refs/heads/main/assets/summary.png" /></a>
 
 An Invoice Manager project built with React + Bootstrap + React-redux toolkit. Create a new Invoice, add itemized items, and configure quantity, prices, tax rates, and discounts. Download the Invoice as PDFs to your device. Manage several Invoices together. Edit, Delete, and Copy an existing Invoice. The Invoices are saved into LocalStorage. Uses [jspdf-react](https://www.npmjs.com/package/jspdf-react) to capture the data from the modal and covert it from canvas -> pdf.
 
